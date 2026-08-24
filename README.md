@@ -1,16 +1,31 @@
 # Keyboard
 
-Arduino sketch or library from the Arduino archive.
+Allows an Arduino board with USB capabilities to act as a Keyboard. This library plugs on the HID library. It can be used with or without other HID-based libraries (Mouse, Gamepad etc) Original author: Arduino. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.0.3. Upstream: <https://www.arduino.cc/reference/en/language/functions/usb/keyboard/>.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** Arduino (*)  
+**Output:** Arduino library
 
-- `examples/Serial/Serial.ino`
-- `library.properties`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `Keyboard` | C++ / Arduino | library | Allows an Arduino board with USB capabilities to act as a Keyboard |
+| `Serial` | C++ / Arduino | example sketch | `examples/Serial/Serial.ino` |
+
+## How to open
+
+Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/Keyboard`). Open any `examples/*.ino` from the Arduino IDE.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+- **Original author / maintainer:** Arduino
+- **library.properties name:** Keyboard
+- **Version:** 1.0.3
+- **Upstream URL:** <https://www.arduino.cc/reference/en/language/functions/usb/keyboard/>
+- **Category:** Device Control
+- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
-MIT. See `LICENSE`.
+Original upstream license terms in this tree (where recorded). This repository does not claim authorship of the upstream library. See `THIRD_PARTY_NOTICES.md`. The `LICENSE` file added at import is a VaderConsulting MIT wrapper and does not replace upstream terms.
