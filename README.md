@@ -2,6 +2,7 @@
 
 Allows an Arduino board with USB capabilities to act as a Keyboard. This library plugs on the HID library. It can be used with or without other HID-based libraries (Mouse, Gamepad etc) Original author: Arduino. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.0.3. Upstream: <https://www.arduino.cc/reference/en/language/functions/usb/keyboard/>.
 
+**Source last updated:** 2021-11-04  
 **Language:** C++ / Arduino  
 **Target:** Arduino (*)  
 **Output:** Arduino library
