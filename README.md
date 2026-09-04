@@ -18,6 +18,10 @@ Allows an Arduino board with USB capabilities to act as a Keyboard. This library
 
 Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/Keyboard`). Open any `examples/*.ino` from the Arduino IDE.
 
+## Requirements
+
+- Arduino IDE
+
 ## Attribution and provenance
 
 - **Original author / maintainer:** Arduino
